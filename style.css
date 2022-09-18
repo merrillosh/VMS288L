@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Ciseaux Matisse';
+  src: url('/fonts/ciseaux_matisse.woff2') format('woff2'),
+       url('/fonts/ciseaux_matisse.woff') format('woff'),
+       url('/fonts/ciseaux_matisse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
