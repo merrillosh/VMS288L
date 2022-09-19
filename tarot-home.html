@@ -5,33 +5,68 @@
                     <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
                     <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
                     <title>Tarot Project Home Page</title>
-                    <link rel=“stylesheet” href=“style.css”>
+                    <link rel="stylesheet" href="style.css"/>
                     <style>
 
-                      @font-face {
-                        font-family: 'Ciseaux Matisse';
-                        src: url('/fonts/ciseaux_matisse.woff2') format('woff2'),
-                            url('/fonts/ciseaux_matisse.woff') format('woff'),
-                            url('/fonts/ciseaux_matisse.ttf') format('truetype');
-                        font-weight: normal;
-                        font-style: normal;
-                      }
+                      @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 
                       body {
                         background: url("./images/tarot-project-home-bckgrnd.jpeg") no-repeat center center fixed;
                         background-size: cover;
+                        color: #2C2C2C;
                       }
 
                       h1 {
-                        font-family: 'Ciseaux Matisse';
-                        font-size: 10rem;
-                        margin-left: 20%;
+                        font-family: "CiseauxMatisseW90-Cut-Out";   
+                        font-size: 3.3rem;
                       }
+
+                      hr {
+                        width:73%;
+                        text-align:center;
+                        border-width: 2px;
+                        border-color: #2C2C2C;
+                        transform: rotate(-0.5deg) translateY(-5px);
+                      }
+
+                      ol {
+                        padding-left: 17%;
+                        padding-top: 15px;
+                        font-family: 'Inconsolata', monospace;
+                        font-size: 1.9rem;   
+                      }
+
+                      li {
+                        padding-bottom: 2rem;
+                      }
+
+                      a {
+                        color: inherit;
+                        text-decoration: none;
+                      }
+
+                      a:hover {
+                        color: black;
+                      }
+
+                      /*p {
+                        font-family: 'Inconsolata', monospace;
+                        font-size: 1.7rem;
+                      }*/
 
                     </style>
                 </head>
                      <body>
                          <script src=“index.js”></script>
-                         <h1>Future Vision Tarot Cards</h1>
+                          <center>
+                           <h1>Future Vision Tarot Cards</h1>
+                           <hr>
+                          </center>
+                           <ol>
+                              <li><a href="html/high-priestess.html">The High Priestess</a></li>
+                              <li><a href="html/devil.html">The Devil</a></li>
+                              <li><a href="html/star.html">The Star</a></li>
+                              <li><a href="html/lovers.html">The Lovers</a></li>
+                           </ol>
                     </body>
                         </html>

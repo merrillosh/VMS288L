@@ -1,8 +1,10 @@
-@font-face {
-  font-family: 'Ciseaux Matisse';
-  src: url('/fonts/ciseaux_matisse.woff2') format('woff2'),
-       url('/fonts/ciseaux_matisse.woff') format('woff'),
-       url('/fonts/ciseaux_matisse.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+@font-face {font-family: "CiseauxMatisseW90-Cut-Out"; 
+  src: url("/fonts/Ciseaux\ Matisse\ W90\ Cut-Out.woff2") format("woff2"), 
+  url("/fonts/Ciseaux\ Matisse\ W90\ Cut-Out.woff") format("woff"), 
+  url("/fonts/Ciseaux\ Matisse\ W90\ Cut-Out.ttf") format("truetype"), 
+  url("/fonts/Ciseaux\ Matisse\ W90\ Cut-Out.svg") format("svg"); }
+
+img {
+  display: block;
+  width: 100%;
 }
